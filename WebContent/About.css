@@ -1,0 +1,112 @@
+
+/*
+Author : Kaushik Narayan Balasubramanian 
+   
+*/
+
+body {
+	min-width: 960px;
+	background-image: url('Images/Background.jpg');
+	background-repeat: repeat;
+}
+
+#header-wrapper, #footer-wrapper {
+	min-width: 960px;
+	background-color: #ffff00;
+}
+
+#logo {
+	max-width: 5em;
+}
+
+#header-wrapper header nav ul {
+	margin: 0;
+	padding: 2px;
+	height:100px;
+	overflow: hidden;
+	font-size: 2em;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#header-wrapper header nav ul li {
+	display: inline;
+}
+
+#header-nav ul li a{
+	text-decoration: underline;
+	margin: 5px 5px;
+}
+
+.nav-item a {
+	color: black;
+	padding: 0px 0px;
+	
+}
+
+#content-wrapper {
+	background-color: #3399ff;
+	min-height: 950px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#align {
+	margin: 0 auto;
+	width: 80%;
+}
+
+#image {
+	float:left;
+	margin: 5px;
+}
+
+#image img {
+	max-width: 100%;
+}
+
+#text {
+	width: 100%;
+	color: black;
+	padding: 5px 5px;
+}
+
+#text h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#text p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#footer-wrapper {
+	font-family: '"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#footer-wrapper footer {
+	height: 130px;
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#footer-wrapper footer #footer-info {
+	color: #EE1818;
+	font-size: 18px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	text-align: right;
+}
+
+#footer-wrapper footer nav ul {
+	margin: 20px 0 0 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+#footer-wrapper footer nav ul li a {
+	color: #EE1818;
+	text-decoration: none;
+	font-size: 18px;
+}
